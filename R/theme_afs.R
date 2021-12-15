@@ -30,6 +30,8 @@ sysfonts::font_add(
 
 showtext::showtext_auto()
 
+library(ggplot2)
+
 theme_afs <- function() {
   theme_minimal() %+replace%
     theme(
