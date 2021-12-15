@@ -13,7 +13,7 @@
 #'   ) +
 #'   theme_afs()
 #'   acn_logo()
-library(showtext)
+#'
 
 # We need to load the Accenture fonts to use them in the plot.
 sysfonts::font_add(
@@ -29,7 +29,7 @@ sysfonts::font_add(
   regular = "./fonts/GT_Sectra_Fine/GT-Sectra-Fine-Regular.otf"
 )
 
-showtext_auto()
+showtext::showtext_auto()
 
 theme_afs <- function() {
   theme_minimal() %+replace%
@@ -111,8 +111,8 @@ theme_afs <- function() {
 }
 
 acn_logo <- function() {
-  grid.raster(
-    image_read("./images/accenture_logo_black.svg"),
+  grid::grid.raster(
+    magick::image_read("./images/accenture_logo_black.svg"),
     x = 0.05,
     y = 0.03,
     just = c("left", "bottom"),
