@@ -4,7 +4,7 @@
 #' @export
 #'
 #' @examples
-#' acn_logo()
+#'
 
 acn_logo <- function() {
   grid::grid.raster(
