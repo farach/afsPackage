@@ -28,6 +28,6 @@ folder structure within PROJECT_PATH
 Create project files
 }
 \examples{
-create_project_files()
+
 
 }
