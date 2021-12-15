@@ -1,4 +1,16 @@
-
+#' Create project files
+#'
+#' @param PROJECT_PATH  location of project
+#' @param FOLDERS_TO_CREATE defaults to: "data", "docs", "figs", "logs", "output", "queries", "R", "tests"
+#' @param OPEN_NEW_SESSION defaults to TRUE
+#' @param DEBUG defaults to TRUE
+#'
+#' @return folder structure within PROJECT_PATH
+#' @export
+#'
+#' @examples
+#'
+#'
 create_project_files <- function(PROJECT_PATH = rstudioapi::getActiveProject(),
                                FOLDERS_TO_CREATE = c(
                                  "data", "docs", "figs", "logs",

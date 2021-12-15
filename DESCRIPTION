@@ -18,4 +18,5 @@ Depends:
 Imports: 
     magick,
     grid,
-    showtext
+    showtext,
+    rstudioapi
