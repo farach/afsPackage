@@ -13,5 +13,5 @@ adds Accenture logo to bottom left of a plot
 acn_logo
 }
 \examples{
-acn_logo()
+
 }

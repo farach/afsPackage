@@ -1,5 +1,4 @@
-#' theme_afs
-#' Creates AFS themed ggplot2 theme
+#' theme_afs is an AFS themed ggplot2 theme
 #'
 #' @return ggplot object
 #' @export theme_afs
@@ -18,15 +17,15 @@
 # We need to load the Accenture fonts to use them in the plot.
 sysfonts::font_add(
   family = "graphik-bold",
-  regular = "./fonts/Graphik TTF 161229/Graphik-Bold.ttf"
+  regular = "./fonts/Graphik_TTF_161229/Graphik_Bold.ttf"
 )
 sysfonts::font_add(
   family = "graphik-regular",
-  regular = "./fonts/Graphik TTF 161229/Graphik-Regular.ttf"
+  regular = "./fonts/Graphik_TTF_161229/Graphik_Regular.ttf"
 )
 sysfonts::font_add(
   family = "spectra-regular",
-  regular = "./fonts/GT_Sectra_Fine/GT-Sectra-Fine-Regular.otf"
+  regular = "./fonts/GT_Sectra_Fine/GT_Sectra_Fine_Regular.otf"
 )
 
 showtext::showtext_auto()
