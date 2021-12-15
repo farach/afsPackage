@@ -1,3 +1,11 @@
+#' acn_logo
+#'
+#' @return adds Accenture logo to bottom left of a plot
+#' @export
+#'
+#' @examples
+#' acn_logo()
+
 acn_logo <- function() {
   grid::grid.raster(
     magick::image_read("./images/accenture_logo_black.svg"),
