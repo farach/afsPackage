@@ -31,7 +31,7 @@ sysfonts::font_add(
 showtext::showtext_auto()
 
 theme_afs <- function() {
-  ggplot2::theme_minimal() %+replace%
+  ggplot2::theme_minimal() ggplot2::`%+replace%`
     ggplot2::theme(
       panel.grid.minor = ggplot2::element_blank(),
       panel.grid.major.y = ggplot2::element_line(
