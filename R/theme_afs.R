@@ -98,12 +98,12 @@ theme_afs <- function() {
         color = "#96968c"
       ),
       axis.title.y = ggplot2::element_text(
-        margin = margin(0, 20, 0, 0),
+        margin = ggplot2::margin(0, 20, 0, 0),
         color = "#96968c",
         angle = 90
       ),
       axis.title.x = ggplot2::element_text(
-        margin = margin(20, 0, 0, 0),
+        margin = ggplot2::margin(20, 0, 0, 0),
         color = "#96968c"
       )
     )

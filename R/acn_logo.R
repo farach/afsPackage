@@ -13,7 +13,7 @@ acn_logo <- function() {
     x = 0.05,
     y = 0.03,
     just = c("left", "bottom"),
-    width = unit(1, "inches"),
-    height = unit(0.28, "inches")
+    width = grid::unit(1, "inches"),
+    height = grid::unit(0.28, "inches")
   )
 }
