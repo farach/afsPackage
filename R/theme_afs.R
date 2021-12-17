@@ -17,15 +17,15 @@
 # We need to load the Accenture fonts to use them in the plot.
 sysfonts::font_add(
   family = "graphik-bold",
-  regular = "./fonts/Graphik_TTF_161229/Graphik_Bold.ttf"
+  regular = "Graphik_TTF_161229/Graphik_Bold.ttf"
 )
 sysfonts::font_add(
   family = "graphik-regular",
-  regular = "./fonts/Graphik_TTF_161229/Graphik_Regular.ttf"
+  regular = "Graphik_TTF_161229/Graphik_Regular.ttf"
 )
 sysfonts::font_add(
   family = "spectra-regular",
-  regular = "./fonts/GT_Sectra_Fine/GT_Sectra_Fine_Regular.otf"
+  regular = "GT_Sectra_Fine/GT_Sectra_Fine_Regular.otf"
 )
 
 showtext::showtext_auto()
@@ -109,15 +109,4 @@ theme_afs <- function() {
         color = "#96968c"
       )
     )
-}
-
-acn_logo <- function() {
-  grid::grid.raster(
-    magick::image_read("./images/accenture_logo_black.svg"),
-    x = 0.05,
-    y = 0.03,
-    just = c("left", "bottom"),
-    width = unit(1, "inches"),
-    height = unit(0.28, "inches")
-  )
 }
