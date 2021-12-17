@@ -14,22 +14,6 @@
 #'   acn_logo()
 #'
 
-# We need to load the Accenture fonts to use them in the plot.
-# sysfonts::font_add(
-#   family = "graphik-bold",
-#   regular = system.file("Graphik_TTF_161229", "Graphik_Bold.ttf", package = "afsPackage")
-# )
-# sysfonts::font_add(
-#   family = "graphik-regular",
-#   regular = system.file("Graphik_TTF_161229", "Graphik_Regular.ttf", package = "afsPackage")
-# )
-# sysfonts::font_add(
-#   family = "spectra-regular",
-#   regular = system.file("GT_Sectra_Fine", "GT_Sectra_Fine_Regular.otf", package = "afsPackage")
-# )
-#
-# showtext::showtext_auto()
-
 theme_afs <- function() {
   ggplot2::theme_minimal() %+replace%
     ggplot2::theme(

@@ -17,7 +17,7 @@
   }
 
   fnt <- extrafont::fonttable()
-  if (!any(grepl("Aldrich", fnt$FamilyName))) {
+  if (!any(grepl("Graphik|GT", fnt$FamilyName))) {
     packageStartupMessage("NOTE: Graphik and GT are required fonts for the AFS theme to work by default")
     packageStartupMessage("      Please use afsPackage::import_fonts() to install fonts")
   }

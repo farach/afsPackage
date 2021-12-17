@@ -20,4 +20,6 @@ Imports:
     grid,
     showtext,
     rstudioapi,
-    sysfonts
+    sysfonts,
+    grDevices,
+    extrafont
